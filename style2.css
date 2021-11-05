@@ -1,0 +1,133 @@
+
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    body{
+        background-color: rgb(233, 233, 233);
+        min-height: 100vh;
+
+    }
+    .back{
+        position: absolute;
+        left: 0;
+        width: 40px;
+        height: 40px;
+        margin: 5px;
+    }
+    .x{
+        position: absolute;
+        right:0 ;
+        width: 40px;
+        height: 40px;
+        margin: 5px;
+    }
+    .lcont{
+        background-color:rgb(73, 73, 73);
+        width: 100%;
+        height: 50px;
+    }
+
+    .content3{
+
+        position: absolute;
+        width: 100vw;
+        height: 85vh;
+        padding-top: 30px;
+        line-height: 40px;
+        overflow: hidden;
+
+    }
+    .content3 h3{
+
+        font-weight: 400;
+        color: rgb(73, 73, 73);
+        text-align: left;
+        padding-left: 40px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        position: relative;
+        line-height: 40px;
+
+    }
+    .bcont{
+        padding-top: 5vh;
+        height: 15vh;
+        position: sticky;
+        top: 100%;
+        background-color:rgb(73, 73, 73);
+
+    }
+    .bcont h3{
+        font-weight: 400;
+        color: white;
+        text-align: left;
+        padding-left: 40px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        position: relative;
+        line-height: 40px;
+
+    }
+    .search-cont{
+        height: auto;
+    }
+    .search-field{
+        border-width: 1px;
+        border-style: solid;
+        border-radius: 5px;
+        margin-top: 20px;
+        margin-left: 40px;
+        height: 50px;
+        width: 80vw;
+        background-color: rgb(233, 233, 233);
+        border-color:  rgb(73, 73, 73);
+    }
+    input[type="text"]::placeholder{
+        padding-left: 10px;
+        color:rgb(73, 73, 73);
+    }
+
+
+    #slider1 img{
+        position: relative;
+        width: 30px;
+        height: 30px;
+        top: 45%;
+        left: 90%;
+        
+    }
+
+
+ /*  
+
+     #slider2 img{
+        position: relative;
+        width: 30px;
+        height: 30px;
+        top: 45%;
+        left: 90%;
+        
+    }
+    #slider1 h3{
+        position: relative;
+        left: 20% ;
+    }
+    #slider2 h3{
+        position: relative;
+        left: 20% ;
+    }
+    #wrapper{
+        display: inline;
+    }
+
+    @keyframes slide{
+        0%{
+            transform: translateX(500px);
+        }
+        50%{
+            transform: translateX(-200px);
+        }
+        100%{
+            transform: translateX(-450px);
+        }
+    }
+*?
